@@ -13,6 +13,11 @@ fun main() {
     // Calling a METHOD on each object
     binnie.walk()
     clyde.walk()
+    println(binnie)
+    println(clyde)
+
+    binnie.eat()
+    clyde.eat()
 
     /* println(objectName)
         automatically calls the toString() method
